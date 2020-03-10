@@ -5,15 +5,15 @@ body {
 }
 nav {
     display: block;
-    height: 100px;
+    height: 85px;
     position: sticky;
     top: 0;
-    background:  #F2EEE9;
+    background:  rgba(21, 31, 32, 0.911)    ;
     z-index: 1;
 }
 header {
  background-image: url(/image/food-photographer-jennifer-pallian-AZJjIlbZM60-unsplash.jpg);
- height: 600px;
+ height: 90vh;
  background-repeat: no-repeat;
  background-size: cover;
 
@@ -82,12 +82,13 @@ h3 {
 }
 /* Frukt box */
 .card {
-    margin: 30px;
+    margin: 20px;
     border-radius: 20px;
     overflow: hidden;
-    width: 400px;
+    width: 290px;
     text-align: center;
     align-items: center;
+    box-shadow: 10px 9px 25px -3px rgba(0,0,0,0.75);
    
 }
 /* inputruta */
@@ -111,7 +112,7 @@ h3 {
     margin-left: 0px;
     width: 245px;
     height: 40px;
-    background: rgb(30, 179, 30);
+    background: rgb(49, 149, 86);
 }
 
 /* varukorg */
@@ -124,6 +125,7 @@ h3 {
     padding-bottom: 30px;
 
 }
+
 /* kundvagn */
 #toggle-cart-btn {
     height: 40px;
@@ -141,14 +143,15 @@ h3 {
     margin: 20px 20px;
     font: bolder;
     font-size: 17px;
-    color: red;
+    color: white;
+    background-color: rgb(216, 32, 32);
     border: 1px solid black;
     margin-left: 80px;
 }
 
 /* Delete knappar */
 .dltBtn {
-    background: rgb(238, 123, 123);
+    background: rgb(216, 32, 32);
     border-radius: 100px;
     padding: 0;
     margin-left: 27px;
@@ -156,12 +159,12 @@ h3 {
 }
 
 .rubrik {
-    background: rgba(72, 160, 182, 0.719);
+    background: rgba(88, 112, 117, 0.719);
     
 }
 
 h4 {
-    background: rgb(59, 59, 59);
+    background: rgba(46, 69, 73, 0.911);
     color: white;
     margin: 0;
     padding: 10px;
@@ -170,8 +173,8 @@ h4 {
 
 /* bekräfta */
 .order {
-    background: rgb(30, 179, 30);
-    border-radius: 80px;
+    background: rgb(7, 167, 7);
+    border-radius: 25px;
     margin-left: 40px;
     color: white;
     padding: 12px 30px;
